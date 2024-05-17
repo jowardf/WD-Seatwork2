@@ -4,16 +4,17 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+<!-- TODO: If you want to add logo or banner you can add it here -->
+  <a href="https://app.daily.dev/joward">
+  <img src="https://api.daily.dev/devcards/v2/FbkP7WJcRwd8G2Prnc7X9.png?type=default&r=8l1" width="356" alt="Joward's Dev Card"/>
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">SEATWORK_2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  <p>--
+  insert description here--</p>
 </div>
 
 <br />
@@ -60,29 +61,31 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- SEATWORK 2 utilizing the use of Wireframing and Emmet codes
+- This project aims to get used to creating websites with HTML and CSS
+- Single Page Website/Resume Website
+- HTML and CSS were used to set up the elements then having to format said elements
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- HTML
+  - Wireframe
+- CSS
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules and Principles
 1. Always use ***WD-*** in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use 'index.html' as the filename.
 3. File Structure to follow
 
+## My WakaTime Stats
+
+![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=jowardf&layout=compact)
 ```
 WD-ProjectName
 └─ assets
