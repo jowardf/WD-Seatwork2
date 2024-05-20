@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <!-- header>img+div>nav*4>p^^button> -->
     <header>
-        <img src="" alt="holder">
-        <div>
+        <div class="head">
+            <img class="photo pic1" src="data:image/png;base64,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" alt="holder" width=100px>
             <nav>
-                <p>nav1</p>
+                <p>About</p>
             </nav>
             <nav>
-                <p>nav2</p>
+                <p>Services</p>
             </nav>
             <nav>
-                <p>nav3</p>
+                <p>My Work</p>
             </nav>
             <nav>
-                <p>nav4</p>
+                <p>Blog</p>
             </nav>
-            <button>button1</button>
+            <button type="button" onclick="alert('HIRED')" class="button hireme">Hire Me</button>
         </div>
     </header>
 
     <!-- section>div>p+h2+p^button> -->
     <section>
-        <div>
-            <p>sec1</p>
-            <h2>sec2</h2>
-            <p>sec3</p>
+        <div class="resume">
+            <p>Hi, I am Joward</p>
+            <h2>Newbie Developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed necessitatibus sit corporis 
+sequi et temporibus recusandae perspiciatis id ducimus, natus cupiditate non qui culpa iusto 
+illo molestias eum consequuntur enim!</p>
         </div>
-        <button>button2</button>
+        <div>
+            <img class="photo pic2" src="data:image/png;base64,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" alt="holder">
+        </div>
     </section>
+    <button class="button seemywork">See My Work</button>
 </body>
 </html>
